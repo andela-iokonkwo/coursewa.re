@@ -13,6 +13,7 @@ gem 'gravatar_image_tag'
 gem 'daemons'
 gem 'kaminari'
 gem 'ruby-oembed'
+gem 'cane'
 
 # Speedup a bit things
 gem 'multi_json'
@@ -32,7 +33,6 @@ group :development do
   gem 'yard', :require => false
   gem 'gettext', :require => false
   gem 'ruby_parser', :require => false
-  gem 'cane'
   gem 'seedbank', '0.3.0.pre'
   gem 'mina', :require => false, :github => 'stas/mina', :branch => 'rbenv_and_ruby-build_support'
   gem 'pry-rails'
